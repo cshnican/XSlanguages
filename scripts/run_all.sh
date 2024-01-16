@@ -1,0 +1,8 @@
+sbatch make_table.sh
+sbatch impute_soc_data.sh
+sbatch analysis_soc_logic_global.sh
+sbatch analysis_soc_linear_global.sh
+sbatch analysis_soc_logic.sh
+sbatch analysis_soc_linear.sh
+sbatch extract_fit.sh
+sbatch extract_fit_global.sh

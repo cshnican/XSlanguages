@@ -1,0 +1,101 @@
+﻿feature_name,complexity_tier,label,level,syntax,morphology,combined,classification_binary
+20-Fusion of Selected Inflectional Formatives,2<1/7<3/4/5/6,Fusion (less << more),morphology,—,M,morphology,M
+21-Exponence of Selected Inflectional Formatives,5<1<2/3/4,Number of exponence on selected inflectional formatives (few << more),morphology,—,M,morphology,M
+22-Inflectional Synthesis of the Verb,1<2<3<4<5<6<7,Degree of inflectional synthesis (few << more),morphology,—,M,morphology,M
+23-Locus of Marking in the Clause,4<1/2/3/5,Existence of marking on the direct object (no < yes),morphology,S,M,both,M
+24-Locus of Marking in Possessive Noun Phrases,4<1/2/3/5,Existence of marking on the possessor (no < yes),morphology,S,M,both,M
+25-Locus of Marking: Whole-language Typology,4<1/2/3/5,Existence of marking (no < yes),morphology,S,M,both,M
+26-Prefixing vs. Suffixing in Inflectional Morphology,1<2/3/4/5/6,Existence of affixes (no < yes),morphology,—,M,morphology,M
+27-Reduplication,3<2<1,Degree of reduplication (full < partial < none),morphology,—,M,morphology,M
+28-Case Syncretism,1<4<2/3,Case syncretism (no cases < no syncretism < syncretism),morphology,—,M,morphology,M
+29-Syncretism in Verbal Person/Number Marking,1<3<2,Syncretism in verbal person or number marking (no marking < no syncretism < syncretism),morphology,—,M,morphology,M
+30-Number of Genders,1<2<3<4<5,Number of grammatical genders (few < more),nominal categories,—,M,morphology,M
+30-Number of Genders,1<2/3/4/5,Existence of grammatical genders (no < yes),nominal categories,S,M,both,M
+31-Sex-based and Non-sex-based Gender Systems,1<2/3,Existence of sex-based gender systems (no < yes),nominal categories,—,M,morphology,M
+32-Systems of Gender Assignment,1<2<3,Gender assignment system (no gender < semantic < semantic and formal),nominal categories,—,M,morphology,M
+33-Coding of Nominal Plurality,9<1/2/3/4/5/6/7/8,Existence of nominal plurality (no < yes),nominal categories,S,M,both,M
+34-Occurrence of Nominal Plurality,1<2<3<4<5<6,Occurance of nominal plurality (no plural << obligatory plural in all nouns),nominal categories,S,M,both,M
+36-The Associative Plural,1/4<2/3,Existence of special associative plural marker (no < yes),nominal categories,S,M,both,M
+37-Definite Articles,4/5<1/2/3,Existence of definite article (no < yes),nominal categories,S,—,syntax,S
+38-Indefinite Articles,4/5<1/2/3,Existence of indefinite article (no < yes),nominal categories,S,—,syntax,S
+39-Inclusive/Exclusive Distinction in Independent Pronouns,1/2/3/4<5,Differentiation of inclusive/exclusive in independent pronouns (no < yes),nominal categories,—,—,—,_
+40-Inclusive/Exclusive Distinction in Verbal Inflection,1/2/3/4<5,Differentiation of inclusive/exclusive in verbal inflections (no < yes),nominal categories,S,M,both,M
+41-Distance Contrasts in Demonstratives,1<2<3<4<5,Number of contrasts in demonstratives (few << more),nominal categories,—,—,—,_
+42-Pronominal and Adnominal Demonstratives,1<2/3,Forms of prenominal and adnominal demonstratives (same < different),nominal categories,S,—,syntax,S
+43-Third Person Pronouns and Demonstratives,2/3/4/5/6<1,Relatedness between third person pronouns and demonstratives (yes < no),nominal categories,S,—,syntax,S
+44-Gender Distinctions in Independent Personal Pronouns,6<1/2/3/4/5,Existence of gender distinctions in independent personal pronouns (no < yes),nominal categories,—,—,morphology,M
+45-Politeness Distinctions in Pronouns,1<2<3<4,Encoding of politeness distinction in second person pronouns (no < yes),nominal categories,—,—,—,_
+47-Intensifiers and Reflexive Pronouns,1<2,Differentiation between intensifiers and reflexive pronouns (no < yes),nominal categories,S,—,syntax,S
+48-Person Marking on Adpositions,1<2<3<4,Degree of person marking on adpositions (no adp. < no marking < marking for pronouns < marking for pronouns and nouns) ,nominal categories,S,M,both,M
+49-Number of Cases,2<3<4<5<6<7,Number of grammatical cases (few cases << many cases),nominal categories,S,M,both,M
+49-Number of Cases,1<2/3/4/5/6/7,Existence of grammatical cases (no < yes),nominal categories,S,M,both,M
+49-Number of Cases,1<9<2<3<4<5<6<7<8,Degree of case marking (no cases < border line < 2 cases << 10 or more cases),nominal categories,S,M,both,M
+50-Asymmetrical Case-Marking,1<2<3/4/5/6,Degree of assymetrical case marking (no cases < symmetrical < assymetrical),nominal categories,S,M,both,M
+51-Position of Case Affixes,9<1/2/3/4/5/6/7/8,Existence of case affixes (no < yes),nominal categories,S,M,both,M
+52-Comitatives and Instrumentals,1<3<2,Similarity of comitatives and instrumentals (same < different),nominal categories,S,M,both,M
+53-Ordinal Numerals,1<2<3<4/5/6/7/8,Productivity of ordinal formation (less << more),nominal categories,S,M,both,M
+54-Distributive Numerals,1<2/3/4/5/6/7,Existence of distributive numerals (no < yes),nominal categories,S,M,both,M
+55-Numeral Classifiers,1<2<3,Degree of usage of numeral classifiers (absent < optional < obligatory),nominal categories,S,—,syntax,S
+57-Position of Pronominal Possessive Affixes,4<1/2/3,Existence of pronominal possessive affixes (no < yes),nominal categories,S,M,both,M
+58-Obligatory Possessive Inflection,1<2,Obligatory possessive inflection (yes < no),nominal syntax,S,M,both,M
+59-Possessive Classification,1<2<3<4,Number of possessive classes (few << more),nominal syntax,S,M,both,M
+"60-Genitives, Adjectives and Relative Clauses",1<2/3/4/5<6,"Degree of differentiation among genetives, adjectives, and relative clauses (weak < moderate < strong)",nominal syntax,S,—,syntax,S
+61-Adjectives without Nouns,1/2<3/4/5/6/7,Occurance of adjectives without nouns (no or yes without marking < yes with marking),nominal syntax,S,—,syntax,S
+62-Action Nominal Constructions,8<1/2/3/4/5/6/7,Existence of action nominals (no < yes),nominal syntax,S,M,both,M
+63-Noun Phrase Conjunction,2<1,"""and"" and ""with"" (identical < different)",nominal syntax,S,—,syntax,S
+64-Nominal and Verbal Conjunction,3<1<2,Markers for nominal and verbal conjunction (no marker < identical marker < separate marker for each),nominal syntax,S,—,syntax,S
+65-Perfective/Imperfective Aspect,2<1,Distinction between perfective and imperfective aspects (no < yes),verbal categories,S,M,both,M
+66-The Past Tense,4<1<2<3,Degrees of remoteness in past tenses (no past tense < 1 degree of remoteness << 4+ degrees of remoteness),verbal categories,S,M,both,M
+67-The Future Tense,2<1,Existence of inflectional marking of future/nonfuture distinction (no < yes),verbal categories,S,M,both,M
+68-The Perfect,4<1/2/3,Exixtence of perfect tense (no < yes),verbal categories,S,M,both,M
+69-Position of Tense-Aspect Affixes,5<1/2/3/4,Existence of tense-aspect inflection (no < yes),verbal categories,S,M,both,M
+70-The Morphological Imperative,5<1/2/3/4,Existence of morphological second person imperative (no<yes),verbal categories,S,M,both,M
+73-The Optative,2<1,Existence of inflectional optative (no < yes),verbal categories,S,M,both,M
+76-Overlap between Situational and Epistemic Modal Marking,3<2<1,Existence of modal marking for possibility and necessity (no marking < marking for one < marking for both),verbal categories,—,—,—,_
+77-Semantic Distinctions of Evidentiality,1<2<3,Degree of distinctions of evidentiality (no distinctions < only indirect < both direct and indirect),verbal categories,—,—,—,_
+78-Coding of Evidentiality,1<2/3/4/5/6,Existence of evidentiality (no < yes),verbal categories,—,M,morphology,M
+79-Suppletion According to Tense and Aspect,4<1/2/3,Existence of suppletion in tense of aspect (no < yes),verbal categories,—,M,morphology,M
+80-Verbal Number and Suppletion,1/2/4<3/5,Existence of verbal number of suppletion (no < yes),verbal categories,—,M,morphology,M
+"81-Order of Subject, Object and Verb",7<1/2/3/4/5/6,Existence of a dominant word order (no < yes),word order,S,—,syntax,S
+82-Order of Subject and Verb,3<1/2,Existence of a dominant subject-verb order (no < yes),word order,S,—,syntax,S
+83-Order of Object and Verb,3<1/2,Existence of a dominant object-verb order (no < yes),word order,S,—,syntax,S
+"84-Order of Object, Oblique, and Verb",6<1/2/3/4/5,Existence of a dominant object-oblique-verb order (no < yes),word order,S,—,syntax,S
+85-Order of Adposition and Noun Phrase,5<4<1/2/3,Order of adposition and NP (no adpositions < no dominant order < dominant order exists),word order,S,—,syntax,S
+86-Order of Genitive and Noun,3<1/2,Existence of a dominant genitive-noun order (no < yes),word order,S,—,syntax,S
+87-Order of Adjective and Noun,4<3<1/2,Existence of a dominant adjective-noun order (adj not modifying nouns < no < yes),word order,S,—,syntax,S
+88-Order of Demonstrative and Noun,6<1/2/3/4/5,Existence of a dominant demonstrative-noun order (no < yes),word order,S,—,syntax,S
+89-Order of Numeral and Noun,3/4<1/2,Existence of a dominant numeral-noun order (num not modifying nouns < no < yes),word order,S,—,syntax,S
+91-Order of Degree Word and Adjective,3<1/2,Existence of a dominant adjective-degree word order (no < yes),word order,S,—,syntax,S
+92-Position of Polar Question Particles,6<5<1/2/3/4,Existence of a dominant question particle position (no question particle < no < yes),word order,S,—,syntax,S
+98-Alignment of Case Marking of Full Noun Phrases,1<2/3/4/5/6,Alignment of case marking in full NPs (neutral < non-neutral),simple clauses,S,M,both,S
+98-Alignment of Case Marking of Full Noun Phrases,1<4/5/6<2/3,Alignment of case marking in full NPs (neutral < other types < nominative-accusative),simple clauses,S,M,both,S
+99-Alignment of Case Marking of Pronouns,1/7<2/3/4/5/6,Alignment of case marking in pronouns (absent < present),simple clauses,S,M,both,S
+99-Alignment of Case Marking of Pronouns,1/7/4/5/6<2/3,Alignment of case marking in pronouns (others < accusative),simple clauses,S,M,both,S
+99-Alignment of Case Marking of Pronouns,1/2/3/5/6/7<4,Alignment of case marking in pronouns (others < tripartite),simple clauses,S,M,both,S
+99-Alignment of Case Marking of Pronouns,1/7<4/5/6<2/3,Alignment of case marking in pronouns (others << accusative),simple clauses,S,M,both,S
+100-Alignment of Verbal Person Marking,1<2/3/4/5/6,Alignment of verbal person marking (neutral < non-neutral),simple clauses,S,M,both,S
+100-Alignment of Verbal Person Marking,1<3/4/5/6<2,Alignment of verbal person marking (neutral < others < accusative alignment),simple clauses,S,M,both,S
+101-Expression of Pronominal Subjects,2/3/4/5/6<1,Obligatory pronouns in the subject position (no < yes),simple clauses,S,—,syntax,S
+101-Expression of Pronominal Subjects,5<1/2/3/4/6,Existence of a dominant way to express prenominal subjects (no < yes),simple clauses,S,M,both,M
+102-Verbal Person Marking,1<2/3/4/5,Existence of verbal person marking (no < yes),simple clauses,S,M,both,M
+102-Verbal Person Marking,1<2/3/4<5,Number of arguments marked for verbal person (zero < one < two),simple clauses,S,M,both,M
+103-Third Person Zero of Verbal Person Marking,1<3/4/5/6<2,Third person zero of verbal person marking (no marking  < no zero realization < with zero realization),simple clauses,S,M,both,M
+104-Order of Person Markers on the Verb,1<2/3/4/5,Number of person markers on the verb (zero or one < two),simple clauses,S,M,both,M
+106-Reciprocal Constructions,1<4<3<2,Distinction between reciprocal and reflexive constructions (no reciprocal < same << formally different),simple clauses,_,—,_,_
+107-Passive Constructions,2<1,Existence of passive construction (no < yes),simple clauses,S,M,both,S
+108-Antipassive Constructions,3<1/2,Existence of antipassive construction (no < yes),simple clauses,S,M,both,S
+109-Applicative Constructions,8<1/2/3/4/5/6/7,Existence of applicative construction (no < yes),simple clauses,S,M,both,S
+111-Nonperiphrastic Causative Constructions,1<2/3/4,Existence of nonperiphrastic causative constructions (no < yes),simple clauses,S,M,both,M
+113-Symmetric and Asymmetric Standard Negation,1<2/3,Existence of assymmetric standard negation (no < yes),simple clauses,S,—,syntax,S
+116-Polar Questions,6/7<1/2/3/4/5,Existence of special ways to utter polar questions (no < yes),simple clauses,S,—,syntax,S
+119-Nominal and Locational Predication,2<1,Encoding of nominal and locational predication (shared < split),simple clauses,S,—,syntax,S
+120-Zero Copula for Predicate Nominals,2<1,Possibility of zero copula (possible < impossible),simple clauses,S,—,syntax,S
+121-Comparative Constructions,1/2/3<4,Form of comparative constructions (others < particle comparative),simple clauses,S,—,syntax,S
+122-Relativization on Subjects,2/3/4<1,Form of relativization on subjects (others < relative pronouns),complex sentences,S,—,syntax,S
+122-Relativization on Subjects,2<1/3/4,Form of relativization on subjects (non-reductions < others),complex sentences,S,—,syntax,S
+123-Relativization on Obliques,2/3/4/5<1,Form of relativization on obliques (others < relative pronouns),complex sentences,S,—,syntax,S
+123-Relativization on Obliques,2<1/3/4/5,Form of relativization on obliques (non-reduction < others),complex sentences,S,—,syntax,S
+125-Purpose Clauses,1<2<3,Purpose clauses (balanced << deranked),complex sentences,S,—,syntax,S
+126-'When' Clauses,1<2<3,When' clauses (balanced << deranked),complex sentences,S,—,syntax,S
+127-Reason Clauses,1<2<3,Reason clauses (balanced << deranked),complex sentences,S,—,syntax,S
+128-Utterance Complement Clauses,1<2<3,Utterance complement clauses (balanced << deranked),complex sentences,S,—,syntax,S
