@@ -93,7 +93,7 @@ dev.off()
 
 
 # another graph showing the mean posterior distribution of each classification, binned by their category
-pdf('../imgs/supp_posterior_estimate.pdf', height=10, width=15)
+pdf('../imgs/fig4.pdf', height=10, width=15)
 ggplot(compiled_res %>%
       mutate(classification_finegrained = factor(classification_finegrained, levels=c('M', 'Ms', 'mS', 'S'))), 
       aes(x=estimates, fill=classification_finegrained)) +
