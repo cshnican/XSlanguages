@@ -2,3 +2,4 @@
 *.xml
 *.out
 *.RData
+imgs/detailed/*
