@@ -31,7 +31,7 @@ ggplot(social_normalized_pca %>%
   #geom_text(data=social_normalized_pca %>% slice_sample(n=40), aes(x=PC1, y=PC2+0.1, label=Language), size=3, color='gray10') +
   theme_classic() 
 
-pdf('../imgs/loading_plots.pdf', width=12, height = 12)
+pdf('../imgs/fig1.pdf', width=12, height = 12)
 autoplot(pca, loadings=TRUE, loadings.label=TRUE) + coord_fixed() + theme_classic(15)
 dev.off()
 
