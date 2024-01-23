@@ -7,7 +7,8 @@ library(aplot)
 
 # this script extracts the detailed fit (i.e. the estimated effect of each language)
 
-pth <- '../output_data_pca'
+pth <- '../output_data_pca_newtree'
+output_dir <- '../imgs/detailed_newtree/'
 files <- dir(pth, pattern='*.RData')
 
 # d_final <- read.csv('../Data/compiled_table_20231010.csv') %>% ungroup()
@@ -18,7 +19,7 @@ grammatical_vars <- c()
 refs <- read.csv('../Data/exotericity.csv') %>% 
     select(Glottocode, Family.Glottolog, Language)
 
-tree <- read.tree('../Data/wrangled.tree')
+tree <- read.tree('../Data/new.tree')
 
 for (file in files){
     load(paste0(pth, '/', file))
@@ -55,7 +56,7 @@ for (file in files){
                 theme(legend.position='none')
 
 
-    pdf(paste0('../imgs/detailed/', social_var, '-', grammatical_var, '.pdf'), width=10, height=30)    
+    pdf(paste0(output_dir, social_var, '-', grammatical_var, '.pdf'), width=10, height=30)    
     print(p %>% insert_left(p_tree))
     dev.off()
 

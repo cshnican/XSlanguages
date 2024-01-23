@@ -8,7 +8,7 @@ library(ggplot2)
 #num <- as.numeric(commandArgs(trailingOnly=TRUE))
 
 
-tree <- ape::read.tree("../Data/wrangled.tree")
+tree <- ape::read.tree("../Data/new.tree")
 
 A <- vcv.phylo(tree, corr=TRUE)
 
@@ -56,7 +56,7 @@ for (social_var in social_vs){
   for (grammatical_var in grammatical_var_logistics){
     f = glue('{grammatical_var} ~ {social_var} + (1 | gr(Glottocode2, cov=spatial_covar_mat_local)) + (1 | gr(Glottocode, cov=A))')
     print(f)
-    output_name = paste0('../',gsub('\\.','_',glue('output_data_pca/{social_var}_{grammatical_var}')),'.RData')
+    output_name = paste0('../',gsub('\\.','_',glue('output_data_pca_newtree/{social_var}_{grammatical_var}')),'.RData')
     model <- brm(data=d_final,
       data2=list(A=A, spatial_covar_mat_local=spatial_covar_mat_local),
       family = 'bernoulli',

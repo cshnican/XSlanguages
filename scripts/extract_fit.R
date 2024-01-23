@@ -1,8 +1,11 @@
 library(tidyverse)
 library(brms)
 
-pth <- '../output_data_pca'
+pth <- '../output_data_pca_newtree'
 files <- dir(pth, pattern='*.RData')
+output_name <- '../output_table/fixefs_pca_newtree.csv'
+fig3_name <- '../imgs/fig3_newtree.pdf'
+fig4_name <- '../imgs/fig4_newtree.pdf'
 
 # d_final <- read.csv('../Data/compiled_table_20231010.csv') %>% ungroup()
 
@@ -44,7 +47,7 @@ df <- tibble(
     numbers_of_languages = numbers_of_languages
 )
 
-write.csv(df, '../output_table/fixefs_pca.csv', row.names=FALSE)
+write.csv(df, output_name, row.names=FALSE)
 
 grammatical_var_info <- read_csv('../Data/LP WALS_test_final_morph_vs_syntax, LP+ABB.csv') %>%
   filter(classification_binary %in% c('S', 'M')) %>%
@@ -70,7 +73,7 @@ compiled_res <- df %>%
     ), by = 'grammatical_vars')
 
 
-pdf('../imgs/fig3.pdf', height=20, width=15)
+pdf(fig3_name, height=20, width=15)
 ggplot(compiled_res %>%
          mutate(estimate_sgn=ifelse(estimates<0, 'negative', ifelse(estimates>0, 'positive', 'zero')),
                 significant = lower_qts > 0 | higher_qts < 0,
@@ -93,7 +96,7 @@ dev.off()
 
 
 # another graph showing the mean posterior distribution of each classification, binned by their category
-pdf('../imgs/fig4.pdf', height=10, width=15)
+pdf(fig4_name, height=10, width=15)
 ggplot(compiled_res %>%
       mutate(classification_finegrained = factor(classification_finegrained, levels=c('M', 'Ms', 'mS', 'S'))), 
       aes(x=estimates, fill=classification_finegrained)) +

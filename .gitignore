@@ -3,3 +3,6 @@
 *.out
 *.RData
 imgs/detailed/*
+imgs/compare_trees/*
+imgs/old_stuff/*
+output_table/old_stuff/*

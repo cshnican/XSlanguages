@@ -8,7 +8,7 @@ library(ggplot2)
 #num <- as.numeric(commandArgs(trailingOnly=TRUE))
 
 
-tree <- ape::read.tree("../Data/wrangled.tree")
+tree <- ape::read.tree("../Data/new.tree")
 
 A <- vcv.phylo(tree, corr=TRUE)
 

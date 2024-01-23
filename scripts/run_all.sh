@@ -1,5 +1,6 @@
 sbatch make_table.sh
 sbatch impute_soc_data.sh
+sbatch prune_tree.sh
 sbatch analysis_soc_logic_global.sh
 sbatch analysis_soc_linear_global.sh
 sbatch analysis_soc_logic.sh
